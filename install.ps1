@@ -34,7 +34,7 @@ Expand-Archive -Path $tempZip -DestinationPath "$env:TEMP\GameGenTemp" -Force
 
 # Move contents (GitHub zips have a nested folder)
 $extractedFolder = Get-ChildItem -Path "$env:TEMP\GameGenTemp" -Directory | Select-Object -First 1
-Move-Item -Path "$extractedFolder.FullName\*" -Destination $targetPath -Force
+Move-Item -Path "$($extractedFolder.FullName)\*" -Destination $targetPath -Force
 
 # 4. Cleanup
 Remove-Item -Path $tempZip -Force
