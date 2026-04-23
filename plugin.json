@@ -1,0 +1,10 @@
+{
+  "$schema": "https://raw.githubusercontent.com/SteamClientHomebrew/Millennium/main/src/sys/plugin-schema.json",
+  "name": "gamegen",
+  "common_name": "GameGen",
+  "description": "GameGen Plugin Beta — Steam Game Manager",
+  "version": "7.2.1",
+  "include": [
+    "public"
+  ]
+}

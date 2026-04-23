@@ -1,0 +1,50 @@
+:root {
+    --gg-bg-primary: #191724;
+    --gg-bg-secondary: #26233a;
+    --gg-bg-tertiary: rgba(25, 23, 36, 0.95);
+    --gg-bg-hover: rgba(38, 35, 58, 0.95);
+    --gg-bg-container: rgba(25,23,36,0.8);
+    --gg-bg-container-gradient: rgba(25, 23, 36, 0.9), #191724;
+    --gg-accent: #ea9a97;
+    --gg-accent-light: #f5e0dc;
+    --gg-accent-dark: #d08080;
+    --gg-border: rgba(234, 154, 151, 0.3);
+    --gg-border-hover: rgba(234, 154, 151, 0.8);
+    --gg-text: #e0def4;
+    --gg-text-secondary: #c4b1cd;
+    --gg-gradient: linear-gradient(135deg, #f5e0dc 0%, #ea9a97 100%);
+    --gg-gradient-light: linear-gradient(135deg, #f6c177 0%, #f5e0dc 100%);
+    --gg-shadow: rgba(234, 154, 151, 0.4);
+    --gg-shadow-hover: rgba(234, 154, 151, 0.6);
+    --gg-shadow-rgba: rgba(234, 154, 151, 0.3);
+    --gg-rgb: 234,154,151;
+}
+
+/* Select dropdown styling for rose pine theme */
+select {
+    background-color: rgba(25, 23, 36, 0.95) !important;
+    color: #e0def4 !important;
+    border: 1px solid rgba(234, 154, 151, 0.3) !important;
+    border-radius: 3px;
+}
+
+select option {
+    background-color: #191724;
+    color: #e0def4;
+}
+
+select option:checked {
+    background: linear-gradient(#ea9a97, #ea9a97);
+    background-color: #ea9a97 !important;
+    color: #191724 !important;
+}
+
+select:hover {
+    border-color: rgba(234, 154, 151, 0.8) !important;
+}
+
+select:focus {
+    outline: none;
+    border-color: #ea9a97 !important;
+    box-shadow: 0 0 0 2px rgba(234, 154, 151, 0.3);
+}

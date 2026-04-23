@@ -1,0 +1,51 @@
+:root {
+    --gg-bg-primary: #1a1a1a;
+    --gg-bg-secondary: #2a2a2a;
+    --gg-bg-tertiary: rgba(15, 15, 15, 0.95);
+    --gg-bg-hover: rgba(26, 26, 26, 0.95);
+    --gg-bg-container: rgba(15,15,15,0.6);
+    --gg-bg-container-gradient: rgba(15, 15, 15, 0.85), #0f0f0f;
+    --gg-accent: #888888;
+    --gg-accent-light: #aaaaaa;
+    --gg-accent-dark: #666666;
+    --gg-border: rgba(136, 136, 136, 0.3);
+    --gg-border-hover: rgba(136, 136, 136, 0.8);
+    --gg-text: #fff;
+    --gg-text-secondary: #c7d5e0;
+    --gg-gradient: linear-gradient(135deg, #aaaaaa 0%, #888888 100%);
+    --gg-gradient-light: linear-gradient(135deg, #cccccc 0%, #aaaaaa 100%);
+    --gg-shadow: rgba(136, 136, 136, 0.4);
+    --gg-shadow-hover: rgba(136, 136, 136, 0.6);
+    --gg-shadow-rgba: rgba(136, 136, 136, 0.3);
+    --gg-rgb: 136,136,136;
+}
+
+/* Select dropdown styling for dark theme */
+select {
+    background-color: rgba(15, 15, 15, 0.95) !important;
+    color: #fff !important;
+    border: 1px solid rgba(136, 136, 136, 0.3) !important;
+    border-radius: 3px;
+}
+
+select option {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+select option:checked {
+    background: linear-gradient(#888888, #888888);
+    background-color: #888888 !important;
+    color: #1a1a1a !important;
+}
+
+select:hover {
+    border-color: rgba(136, 136, 136, 0.8) !important;
+}
+
+select:focus {
+    outline: none;
+    border-color: #888888 !important;
+    box-shadow: 0 0 0 2px rgba(136, 136, 136, 0.3);
+}
+
