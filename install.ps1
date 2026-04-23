@@ -3,7 +3,7 @@
 
 $ErrorActionPreference = "Stop"
 
-Write-Host "--- GameGen Plugin Installer ---" -ForegroundColor Cyan
+Write-Host "--- GameGen Plugin Installer (v1.1) ---" -ForegroundColor Cyan
 
 # 1. Detect Steam path
 $steamPath = Get-ItemProperty -Path "HKCU:\Software\Valve\Steam" -Name "SteamPath" -ErrorAction SilentlyContinue | Select-Object -ExpandProperty SteamPath
